@@ -1,16 +1,85 @@
 .sidebar {
-   border-radius: 16px;
-   background-color: $dark-blue;
-   color:white;
-   padding: 20px;
+  width: 33.33%;
+  border-radius: 16px;
+  background-color: $dark-blue;
+  color: white;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
 
-   &_numbers {
+  .numbers, .content {
     border-radius: 20px;
     background-color: $primary-blue;
-    padding: 5px 6px;
-   }
+    padding: 0px 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
 
-   .number {
-    background-color: $light-blue;
-   }
+    .number {
+      width: 35px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      padding-top: 4px;
+      border: 1px solid #7782f1;
+      color: #7782f1;
+      align-items: center;
+      justify-content: center;
+      margin:5px 0px;
+    }
+
+    .number.active {
+      background-color: $light-blue;
+      color: white;
+    }
+
+    .dot-blue,
+    .dot-gray,
+    .dot-white {
+      width: 8px;
+      height: 8px;
+      background-color: #7782f1;
+      border-radius: 50%;
+    }
+
+    .dot-gray {
+      background-color: #979ab8;
+    }
+
+    .dot-white {
+      background-color: #d6d8ea;
+    }
+  }
+
+  .first {
+   margin-top:10px;
+  }
+
+  .content {
+   background-color: transparent;
+   align-items: start;
+  }
+
+  .text-blue {
+    color: #7782f1;
+    margin-top:3px;
+  }
+
+  .text-gray {
+    color: #d6d8ea;
+    margin-top:-15px;
+  }
+
+  .text-gray.submit {
+   line-height: 25px;
+  }
+
+  .num-content {
+   margin-top: 22px;
+  }
+  
+  .product-type {
+   margin-top: 0px;
+  }
 }

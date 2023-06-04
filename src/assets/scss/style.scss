@@ -1,3 +1,29 @@
 @import "variables.scss";
 @import "sidebar.scss";
+@import "mainpanel.scss";
 
+.app {
+  padding: 102px 165px;
+  background-color: $dark-gray;
+}
+
+.container {
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0px 15px 40px rgba(22, 8, 49, 0.1);
+  width: 100%;
+  background-color: white;
+}
+
+.title {
+  color: #000034;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.sub-container {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  align-items: start;
+}
