@@ -1,0 +1,16 @@
+.sidebar {
+   border-radius: 16px;
+   background-color: $dark-blue;
+   color:white;
+   padding: 20px;
+
+   &_numbers {
+    border-radius: 20px;
+    background-color: $primary-blue;
+    padding: 5px 6px;
+   }
+
+   .number {
+    background-color: $light-blue;
+   }
+}
