@@ -1,6 +1,5 @@
 <script setup>
 import Sidebar from './components/Sidebar.vue';
-import MainPanel from './components/MainPanel.vue';
 import './assets/scss/style.scss';
 </script>
 
@@ -13,7 +12,7 @@ import './assets/scss/style.scss';
       </div>
       <div class="sub-container">
         <Sidebar></Sidebar>
-        <MainPanel></MainPanel>
+        <router-view></router-view>
       </div>
     </div>
   </div>

@@ -16,13 +16,13 @@
   }
 
   .input-wrapper {
-    position:relative;
+    position: relative;
   }
 
   .input-icon {
     position: absolute;
-    top:22px;
-    left:20px;
+    top: 22px;
+    left: 20px;
   }
 
   .input-desc {
@@ -48,7 +48,7 @@
     outline: none;
   }
 
-  .button {
+  .next-button {
     padding: 13px 40px;
     background: linear-gradient(90deg, #4efdea 6.67%, #7581ff 92.08%);
     border-radius: 16px;
@@ -58,5 +58,17 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
+  }
+
+  .prev-button {
+    padding: 13px 40px;
+    border-radius: 16px;
+    font-weight: 600;
+    border: 1px solid #000034;
+    margin-top: 80px;
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
   }
 }
